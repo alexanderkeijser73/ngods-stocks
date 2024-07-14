@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "aio"
+version = "0.1.0"
+description = ""
+authors = ["alexander.keijser <alexanderkeijser73@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+jupyter = "1.0.0"
+pandas = "1.4.3"
+prettytable = "3.3.0"
+dbt-core = "~1.7.0"
+dbt-trino = "~1.7.0"
+dbt-postgres = "~1.7.0"
+pyspark = "3.3.0"
+dagit = "*"
+dagster = "*"
+dagster-gcp = "*"
+dagster-pyspark = "*"
+dagster-spark = "*"
+awscliv2 = "^2.3.0"
+MarkupSafe = "2.0.1"
+trino = "*"
+requests = "*"
+kaggle = "1.5.12"
+yfinance = "*"
+pendulum = "<3.0"
+dbt-spark = {version = "~1.7.0", extras = ["PyHive"]}
+dagster-dbt = "^0.23.13"
+pmdarima = "^2.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
